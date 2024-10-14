@@ -9,7 +9,7 @@ int main()
     int n = 0;
     string frase = "Contando ate 1 bi: ";
     while(n < 1'000'000'000)
-    n++;
+        n++;
     {
         cout << frase << n;
     }
